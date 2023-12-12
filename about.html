@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dynamic Convergence University</title>
-    <link rel="icon" href="Images/logo.png" type="image/x-icon" />
+    <title>MIT WPU</title>
+    <link rel="icon" href="https://mitwpu.edu.in/assets/frontend/images/mit_logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,14 +32,13 @@
   <body>
     <section class="sub-header">
       <nav>
-        <a href="home.html"><img src="Images/college_logo.png" alt="" /></a>
+        <a href="home.html"><img src="https://mitwpu.edu.in/assets/frontend/images/mit_logo.png" alt="" /></a>
         <div class="nav-links" id="navLinks">
           <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>
             <li><a href="index.html">HOME</a></li>
             <li><a href="about.html">ABOUT</a></li>
             <li><a href="courses.html">COURSES</a></li>
-            <li><a href="blog.html">BLOGS</a></li>
             <li><a href="contact.html">CONTACT</a></li>
           </ul>
         </div>
@@ -75,44 +74,27 @@
     <!-- ----------footer---------------- -->
 
     <section class="footer">
-      <h1>About Us</h1>
+      <h1>Socials</h1>
       <div class="footer-intro">
-        <p>
-          "We are passionate developers dedicated to crafting innovative
-          solutions that merge technology with creativity. <br />Our mission is
-          to build seamless experiences that redefine possibilities."
-        </p>
       </div>
       <div class="icons">
         <a
-          href="https://www.facebook.com/profile.php?id=100094296491449"
+          href="index.html"
           class="fa fa-facebook"
         ></a>
-        <a href="https://twitter.com/RANIT_MANIK" class="fa fa-twitter"></a>
+        <a href="index.html" class="fa fa-twitter"></a>
         <a
-          href="https://www.instagram.com/ranit_manik_/"
+          href="index.html"
           class="fa fa-instagram"
         ></a>
         <a
-          href="https://www.linkedin.com/in/ranit-manik/"
+          href="index.html"
           class="fa fa-linkedin"
         ></a>
       </div>
-      <p>Made with <i class="fa fa-heart-o"></i> by RANIT</p>
-      <p>© 2021 Ranit Manik</p>
     </section>
 
     <!--Javascript for Toggle Menu-->
-    <script>
-      var navLinks = document.getElementById("navLinks");
-
-      function showMenu() {
-        navLinks.style.right = "0";
-      }
-
-      function hideMenu() {
-        navLinks.style.right = "-200px";
-      }
-    </script>
+    <script src="./about.js"></script>
   </body>
 </html>
